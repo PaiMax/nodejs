@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .row{
+                padding-left: 342px;
+            }
+            body{
+                background-color: rgb(59, 185, 164);
+                font-family:sans-serif;
+            }
+            .contact{
+                border: 5px solid black;
+            }
+            .sub-btn{
+                margin-inline: 87px;
+            }
+            .col-sm-4{
+                margin-block: 27px;
+                margin-left: 119px;
+            }
+            .namecla{
+                margin-bottom: 21px;
+            }
+
+            
+
+        </style>
+
+    </head>>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-sm-4">
+                    <h1>Book a Ticket</h1><br><br>
+                    
+                    <form action="/success" method="POST" class="contact">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter name" id="name" class="namecla" name="username"><br>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="enter your email" id="email" name="email"><br>
+                        <button type="submit" class="sub-btn">Submit</button>
+
+
+                    </form>
+                </div>
+            
+        </div>
+    </body>
+</html>
